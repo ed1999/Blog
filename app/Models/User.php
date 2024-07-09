@@ -52,7 +52,7 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
+                    
     /**
      * The accessors to append to the model's array form.
      *

@@ -46,7 +46,7 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'admin.tags.edit', 
                             'description' => 'Editar etiquetas'])->syncRoles([$role1]);
         Permission::create(['name' => 'admin.tags.destroy', 
-                            'description' => 'Eliinar etiquetas'])->syncRoles([$role1]);
+                            'description' => 'Eliminar etiquetas'])->syncRoles([$role1]);
 
         Permission::create(['name' => 'admin.posts.index', 
                             'description' => 'Ver listado de posts'])->syncRoles([$role1, $role2]);
